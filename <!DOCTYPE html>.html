@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Color Blindness Project</title>
+        <link rel=stylesheet href="Final.css">
+        <script src="Final.js"></script>
+    </head>
+    <body>
+        <h1 id="title">Color Blindness Simulator</h1>
+        <h2>Select a Color Blindness</h2>
+        <div>
+            <button class="button" id="normalB"><h3>Normal Vison</h3></button>
+            <button class="button" id="protanopia"><h3>Protanopia</h3></button>
+            <button class="button" id="deuteranopia"><h3>Deuteranopia</h3></button>
+            <button class="button" id="tritanopia"><h3>Tritanopia</h3></button>
+        </div>
+        <div>
+            <div id="square"><h3 id="boxText">Red</h3></div>
+            <div id="square2"><h3 id="boxText">Green</h3></div>
+            <div id="square3"><h3 id="boxText">Blue</h3></div>
+        </div>
+        <div id="desc">
+            <p id="description">People with <strong>Normal Vision</strong> view the world through 3 different types of cones and with 7 different hues. Everything we use on a daily basis is centered around this color scheme.</p>
+        </div>
+        
+            <h2 id="testText">Would you like to take a test?</h2>
+            <p id="instructions">Select a <strong>Color Blindness</strong> to start.</p>
+            <p id="instructions2"></p>
+        <div id="boring">
+            <div id="boring2">
+            <button id="protChange">Protanopia</button>
+            <button id="DeutChange">Deuteranopia</button>
+            <button id="tritChange">Tritanopia</button>
+            </div>
+        
+        <div id="test">
+            <h3>Type what you see. (be exact!)</h3>
+            <p>Question 1</p>
+            <p id="sentence1">Sentence1</p>
+            <input id="input1">
+            <p>Question 2</p>
+            <p id="sentence2">Sentence2</p>
+            <input id="input2">
+            <p>Question 3</p>
+            <p id="sentence3">Sentence3</p>
+            <input id="input3">
+            <p>Question 4</p>
+            <p id="sentence4">Sentence4</p>
+            <input id="input4">
+            <p>Question 5</p>
+            <p id="sentence5">Sentence5</p>
+            <input id="input5">
+            <p>Click the button once you are confident with your answers</p>
+        </div>
+        <div id="submitButtons">
+            <button id="protSubmit" value="Submit"><strong>A big Button</strong></button>
+            <button id="duetSubmit" value="Submit"><strong>A big Button</strong></button>
+            <button id="tritSubmit" value="Submit"><strong>A big Button</strong></button>
+        </div>
+        <div id="resultButtons">
+            <button id="protResult" value="Result"><strong>See your results</strong></button>
+            <button id="duetResult" value="Result"><strong>See your results</strong></button>
+            <button id="tritResult" value="Result"><strong>See your results</strong></button>
+        </div>
+        </div>
+        <div id="final">
+        <div id="tableResults">
+            <table>
+                <tr>
+                    <th>Round 1</th>
+                    <th>Round 2</th>
+                </tr>
+                <tr>
+                    <td id="score1-1">1</td>
+                    <td id="score1-2">2</td>
+                </tr>
+                <tr>
+                    <td id="score2-1">2</td>
+                    <td id="score2-2">2</td>
+                </tr>
+                <tr>
+                    <td id="score3-1">3</td>
+                    <td id="score3-2">2</td>
+                </tr>
+                <tr>
+                    <td id="score4-1">4</td>
+                    <td id="score4-2">2</td>
+                </tr>
+                <tr>
+                    <td id="score5-1">5</td>
+                    <td id="score5-2">2</td>
+                </tr>
+            </table>
+        </div>
+        <p>As you could see, individuals with colorblindness can have a very difficult time contrasting colors while those without wouldn't have any difficulties. The internet should be a place for everyone to be able to enjoy, thus there should be ways to improve the experience for those with colorblindness. Many videogames do this by offering color filters for certain color blindness. Another way to help with this problem is to create a browser extension (something similar to honey) that can able a color filter onto any website, helping the user differentiate between difficult colors.</p>
+        <button id="reload"><strong>Restart</strong></button>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,4 @@
+Jeffrey Filiberto, Final Project
+
+All that is needed to run the project is to open it in a webpage (chrome is most recommended because I know it works there).
+Other than that, all you have to do is interact with the webpage.

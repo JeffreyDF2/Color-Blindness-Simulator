@@ -1,0 +1,50 @@
+#square {
+  float:left;
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+#square2 {
+  float:left;
+  width: 100px;
+  height: 100px;
+  background: green;
+}
+#square3 {
+  float:left;
+  width: 100px;
+  height: 100px;
+  background: blue;
+}
+#boring {
+  clear:left;
+}
+#desc {
+  clear:left;
+}
+#boxText {
+  color: white;
+  text-align: center;
+}
+#sentence1 {
+  background-color:red;
+  color: green;
+}
+#sentence2 {
+  background-color: green;
+  color: blue;
+  position: relative;
+}
+#sentence3 {
+  background-color: blue;
+  color: rgba(209, 196, 12, 0.856);
+
+}
+#sentence4 {
+  background-color: rgb(24, 251, 97);
+  color: gold;
+}
+#sentence5 {
+  background-color:rgb(250, 0, 255) ;
+  color:rgb(112, 146, 241) ;
+}
